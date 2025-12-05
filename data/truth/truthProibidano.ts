@@ -1,4 +1,7 @@
 export const truthProibidano = [
+
+    // dificuldade sexual mais HARD
+
     "Qual foi o melhor conselho sobre sexo que você já recebeu?",
     "Descreva suas partes íntimas em 3 palavras.",
     "Já tirou a virgindade de alguém? Se sim, quantas?",

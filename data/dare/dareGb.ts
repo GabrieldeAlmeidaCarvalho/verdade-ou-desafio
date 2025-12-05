@@ -17,4 +17,23 @@ export const dareGb = [
   "Próximo doce que farão.",
   "Próximo passeio que forem fazer.",
   "Lamba qualquer parte da pessoa por quanto tempo quiser.",
+
+// copiei e colei
+
+  "O que você mais ama no meu corpo?",
+  "O que você mais tem medo que aconteça com a gente?",
+  "O que você achou de mim quando a gente se conheceu?",
+  "Qual brincadeira sexual você quer experimentar?",
+  "Como você imaginava seu futuro parceiro quando era criança?",
+  "Onde você acha que estará daqui a 10 anos?",
+  "Como seria uma noite perfeita para você?",
+  "Qual é a coisa que a gente faz junto que você mais gosta?",
+  "Você acha que se a gente tivesse se conhecido antes, estaria junto?",
+  "O que você mais ama em mim?",
+  "Quais são suas três posições preferidas?",
+  "Como você definiria o que é traição?",
+  "Qual você acha que é a chave para um relacionamento feliz?",
+  "Eu já te fiz chorar?",
+  "O que você realmente acha dos meus amigos?",
+
 ]

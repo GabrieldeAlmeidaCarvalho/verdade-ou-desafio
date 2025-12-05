@@ -2,7 +2,7 @@ import { useRouter } from 'expo-router';
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 import { usePlayers } from '../../../contexts/PlayerContext';
-import { buttonColors, styles } from './difficultyStyles';
+import { buttonColors, styles } from '../../../styles/(tabs)/difficulty/difficultyStyles';
 
 export default function DifficultyScreen() {
   const router = useRouter();

@@ -23,7 +23,7 @@ export const answerStyles = StyleSheet.create({
   },
   prompt: {
     color: '#FFF',
-    fontSize: 20,
+    fontSize: 21,
     textAlign: 'center',
     backgroundColor: '#222',
     padding: 20,

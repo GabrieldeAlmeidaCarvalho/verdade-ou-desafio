@@ -3,10 +3,10 @@ import { useRouter } from 'expo-router';
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 import { usePlayers } from '../../contexts/PlayerContext';
-import { gameStyles as styles } from './gameStyles';
+import { gameStyles as styles } from '../../styles/game/gameStyles';
 import lists from './lists/lists';
-import { truthGb as TruthsGb } from './lists/truth/truthGb';
-import { dareGb as DaresGb } from './lists/dare/dareGb';
+import { truthGb as TruthsGb } from '../../data/truth/truthGb';
+import { dareGb as DaresGb } from '../../data/dare/dareGb';
 
 export default function JogoScreen() {
   const {

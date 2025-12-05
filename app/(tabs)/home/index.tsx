@@ -2,14 +2,14 @@ import { useRouter } from 'expo-router';
 import React from 'react';
 import { Alert, Text, TouchableOpacity, View } from 'react-native';
 import { usePlayers } from '../../../contexts/PlayerContext';
-import { indexStyles as styles } from '../home/indexStyles';
+import { indexStyles as styles } from '../../../styles/(tabs)/home/indexStyles';
 import DifficultyScreen from '../difficulty/difficulty'; // caminho relativo dentro de (tabs)
 
 
 export default function HomeScreen() {
 
   const router = useRouter();
-  const { players, order, startGame, resetPlayers } = usePlayers();
+  const { players, difficulty, order, startGame, resetPlayers } = usePlayers();
 
   function handleStartGame() {
     if (players.length < 2) {
@@ -37,6 +37,9 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
+      <Text style={{ fontSize: 16, color: '#ccc', marginBottom: 8, paddingBottom: 150 }}>
+        Dificuldade: <Text style={{ fontWeight: 'bold', color: '#fff' }}>{difficulty.toUpperCase()}</Text>
+      </Text>
       <Text style={styles.title}>Verdade ou Desafio</Text>
 
       <TouchableOpacity style={styles.button} 

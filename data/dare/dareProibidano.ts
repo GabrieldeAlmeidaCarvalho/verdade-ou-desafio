@@ -10,5 +10,4 @@ export const dareProibidano = [
     "Eu te desafio a mandar um meme picante para alguém aleatório da sua lista de contatos.",
     "Desafio-te a colocar uma venda nos olhos e deixar o teu parceiro fazer o que quiser contigo.",
     "Faça um Streak. Se não sabe, é correr pelado, por diversão.",
-    "",
 ]

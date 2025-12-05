@@ -1,4 +1,9 @@
 export const truthCaliente = [
+
+// dificuldade sexual
+
+  "Com quem desta sala você ficaria?",
+  "O que acaba com o clima para você?",
   "Tente fazer malabarismos com três objetos que o grupo escolher.",
   "Tente beber um copo de água usando os seus pés.",
   "Molhe o rosto e passe ele em um prato com farinha.",
@@ -46,5 +51,29 @@ export const truthCaliente = [
   "Descreva suas partes íntimas em 3 palavras.",
   "Você já gravou um vídeo íntimo? Descreva.",
   "Qual é a sua posição favorita?",
+  "Você já pegou seus pais transando?",
+  "O que mais te excita?",
+  "Você já pegou alguém muito mais novo ou muito mais velho que você? Quantos anos vocês tinham de diferença?",
+  "Qual ato sexual você sabe fazer melhor?",
+
+  "Você já transou no banheiro de um avião?",
+  "Você já nadou pelado?",
+
+  "Qual parte do corpo você mais gosta?",
+  "Qual foi o lugar mais estranho onde você transou?",
+  "Qual foi a coisa mais constrangedora que já aconteceu com você durante o sexo?",
+  "Você tem algum fetiche?",
+  "Você transa de luz acesa ou apagada?",
+  "O que você adora na cama, mas não admite?",
+  "Com quem foi o seu pior beijo?",
+  "Qual foi a cantada mais ousada que você já passou em alguém?",
+  "Que nota você daria para a sua aparência de 1 a 10?",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
   "",
 ]

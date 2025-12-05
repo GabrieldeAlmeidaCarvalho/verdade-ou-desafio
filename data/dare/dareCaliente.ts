@@ -47,5 +47,7 @@ export const dareCaliente = [
   "Massageie o pescoço da segunda pessoa à sua direita usando a tua boca.",
   "Pesquise uma nova posição sexual que quer experimentar e mostre para todos.",
   "Te desafio a simular um boquete numa garrafa.",
-  "",
+  "Troque uma peça de roupa com a pessoa à sua esquerda.",
+  "Mostre um nude seu ",
+  "Feche os olhos, sente no colo de alguém e tente adivinhar quem é.",
 ]

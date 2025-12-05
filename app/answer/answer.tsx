@@ -2,10 +2,10 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 import { usePlayers } from '../../contexts/PlayerContext';
-import { answerStyles as styles } from './answerStyles';
+import { answerStyles as styles } from '../../styles/answer/answerStyles';
 import lists from '../game/lists/lists';
-import { truthGb as TruthsGb } from '../game/lists/truth/truthGb';
-import { dareGb as DaresGb } from '../game/lists/dare/dareGb';
+import { truthGb as TruthsGb } from '../../data/truth/truthGb';
+import { dareGb as DaresGb } from '../../data/dare/dareGb';
 
 export default function AnswerScreen() {
   const { jogador, prompt, type } = useLocalSearchParams<{
@@ -35,13 +35,13 @@ export default function AnswerScreen() {
   };
 
   const handleDone = () => {
-    if (jogador) addPoints(jogador, 2);
+    if (jogador) addPoints(jogador, 4);
     nextPlayer();
     router.push('/game/game');
   };
 
   const handleRepeat = () => {
-    if (jogador) addPoints(jogador, 1);
+    if (jogador) addPoints(jogador, 3);
     nextPlayer();
     router.push('/game/game');
   };

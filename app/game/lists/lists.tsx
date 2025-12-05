@@ -1,13 +1,13 @@
-import * as truthsSafe from './truth/truthSafe';
-import * as daresSafe from './dare/dareSafe';
-import * as truthsDalhe from './truth/truthDalhe';
-import * as daresDalhe from './dare/dareDalhe';
-import * as truthsCaliente from './truth/truthCaliente';
-import * as daresCaliente from './dare/dareCaliente';
-import * as truthsProibidano from './truth/truthProibidano';
-import * as daresProibidano from './dare/dareProibidano';
-import * as truthsGb from './truth/truthGb';
-import * as daresGb from './dare/dareGb';
+import * as truthsSafe from '../../../data/truth/truthSafe';
+import * as daresSafe from '../../../data/dare/dareSafe';
+import * as truthsDalhe from '../../../data/truth/truthDalhe';
+import * as daresDalhe from '../../../data/dare/dareDalhe';
+import * as truthsCaliente from '../../../data/truth/truthCaliente';
+import * as daresCaliente from '../../../data/dare/dareCaliente';
+import * as truthsProibidano from '../../../data/truth/truthProibidano';
+import * as daresProibidano from '../../../data/dare/dareProibidano';
+import * as truthsGb from '../../../data/truth/truthGb';
+import * as daresGb from '../../../data/dare/dareGb';
 
 const lists = {
   safe: {

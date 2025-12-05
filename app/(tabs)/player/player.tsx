@@ -11,7 +11,7 @@ import {
   Switch,
 } from 'react-native';
 import { usePlayers } from '../../../contexts/PlayerContext';
-import { playerStyles as styles } from './playerStyles';
+import { playerStyles as styles } from '../../../styles/(tabs)/player/playerStyles';
 
 export default function AddPlayerScreen() {
   const router = useRouter();
