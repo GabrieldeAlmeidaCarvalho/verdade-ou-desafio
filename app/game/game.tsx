@@ -76,9 +76,9 @@ export default function JogoScreen() {
           <TouchableOpacity style={[styles.button, styles.dare]} onPress={() => handleOption('dare')}>
             <Text style={styles.buttonText}>DESAFIO</Text>
           </TouchableOpacity>
-          <TouchableOpacity style={styles.button} onPress={() => handleOption('random')}>
+          {/* <TouchableOpacity style={[styles.button, styles.random]} onPress={() => handleOption('random')}>
             <Text style={styles.buttonText}>Aleatório</Text>
-          </TouchableOpacity>
+          </TouchableOpacity> */}
         </View>
       </View>
 

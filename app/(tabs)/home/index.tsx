@@ -37,7 +37,7 @@ export default function HomeScreen() {
 
   return (
     <View style={styles.container}>
-      <Text style={{ fontSize: 16, color: '#ccc', marginBottom: 8, paddingBottom: 150 }}>
+      <Text style={{ alignSelf:'flex-start' , fontSize: 16, color: '#ccc', marginBottom: 8, paddingBottom: 150 }}>
         Dificuldade: <Text style={{ fontWeight: 'bold', color: '#fff' }}>{difficulty.toUpperCase()}</Text>
       </Text>
       <Text style={styles.title}>Verdade ou Desafio</Text>

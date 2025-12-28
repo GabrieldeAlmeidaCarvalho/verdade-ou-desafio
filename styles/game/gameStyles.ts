@@ -38,7 +38,7 @@ export const gameStyles = StyleSheet.create({
     fontSize: 52,
     fontWeight: 'bold',
     color: '#FFF',
-    marginBottom: 30,
+    marginBottom: 50,
     textAlign: 'center',
   },
   options: {
@@ -46,21 +46,27 @@ export const gameStyles = StyleSheet.create({
     gap: 16,
   },
   button: {
-    backgroundColor: '#6200EE',
     paddingVertical: 16,
     borderRadius: 12,
+    marginBottom: 16,
     alignItems: 'center',
     width: '100%',
   },
   truth: {
-    backgroundColor: '#8e44ad',
+    backgroundColor: '#6c009bff',
+
   },
   dare: {
-    backgroundColor: '#e67e22',
+    backgroundColor: '#eb6d00ff',
+    
+  },
+  random: {
+
   },
   backButton: {
     backgroundColor: '#999',
-    width: '100%',
+    width: '60%',
+    alignSelf: 'center',
     marginBottom: 30,
   },
   buttonText: {

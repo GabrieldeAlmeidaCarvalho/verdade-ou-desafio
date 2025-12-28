@@ -32,7 +32,7 @@ export const answerStyles = StyleSheet.create({
     width: '100%',
   },
   nextButton: {
-    backgroundColor: '#03DAC6',
+    backgroundColor: '#008000',
     paddingVertical: 16,
     paddingHorizontal: 24,
     borderRadius: 12,
@@ -40,13 +40,16 @@ export const answerStyles = StyleSheet.create({
     width: '100%',
     alignItems: 'center',
   },
+  blueButton: {
+    backgroundColor: 'rgba(41, 85, 180, 1)',
+  },
   redButton: {
-    backgroundColor: '#c44',
+    backgroundColor: 'rgba(167, 17, 17, 1)',
   },
   nextButtonText: {
-    color: '#000',
+    color: '#ffffffff',
     fontWeight: 'bold',
-    fontSize: 18,
+    fontSize: 19,
   },
   buttonGroup: {
     gap: 10,

@@ -2,6 +2,33 @@ export const truthCaliente = [
 
 // dificuldade sexual
 
+  "Qual foi a maior vergonha que você já passou no ato?",
+  "Em sua opinião, quem nesta sala é o mais propenso a correr na rua pelado?",
+  "Qual é o lugar público mais estranho onde você já fez sexo?",
+  "Que posição sexual achas superestimada?",
+  "Qual é a maior mentira que já contou para levar alguém para a cama?",
+  "Qual é a tua parte favorita das preliminares?",
+  "Curte dar ou receber uns tapinhas?",
+  "Você já gravou um vídeo íntimo?",
+  "Qual é a coisa mais picante que já fez durante o sexo?",
+  "Qual ato sexual você fez que nunca mais quer repetir?",
+  "Você já contou um segredo que jurou guardar?",
+  "Qual a maior loucura de amor que você já fez?",
+  "Com quantos anos deu seu primeiro beijo e onde foi?",
+  "Já viveu um amor proibido?",
+  "Já esteve apaixonado(a) por um(a) amigo(a) em segredo?",
+  "Já foi traído ou acha que foi?",
+  "Já se apaixonou ou teve um crush por um professor? Quem era?",
+  "Qual seu pior primeiro encontro?",
+  "Quem é a pessoa com quem você mais se arrepende de ter ficado?",
+  "Por que você terminou com seu último namorado ou namorada?",
+  "Quem da roda você acha mais bonito(a)? Não ",
+  "Você já partiu o coração de alguém?",
+  "O que mais te faz sentir frio na barriga?",
+  "Quem nesta sala você confia mais para pedir um conselho amoroso?",
+
+
+
   "Com quem desta sala você ficaria?",
   "O que acaba com o clima para você?",
   "Tente fazer malabarismos com três objetos que o grupo escolher.",
@@ -23,7 +50,6 @@ export const truthCaliente = [
   "Se enrole em papel higiênico até ficar parecido com uma múmia.",
   "Ligue para um restaurante e tente manter o atendente em linha por cinco minutos, imitando um estrangeiro falando português.",
   "Dance forró com uma vassoura.",
-  "Imite uma minhoca no chão.",
   "Fale com voz de bebê até o final do jogo.",
   "Procure uma moeda com a boca em um prato cheio de farinha.",
   "Mande uma mensagem ousada para algum contato do seu celular 'acidentalmente'.",

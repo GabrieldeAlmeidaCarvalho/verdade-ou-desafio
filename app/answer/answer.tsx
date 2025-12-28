@@ -34,13 +34,19 @@ export default function AnswerScreen() {
     });
   };
 
+  const handleDoneDrink = () => {
+    if (jogador) addPoints(jogador, 5);
+    nextPlayer();
+    router.push('/game/game');
+  };
+
   const handleDone = () => {
     if (jogador) addPoints(jogador, 4);
     nextPlayer();
     router.push('/game/game');
   };
 
-  const handleRepeat = () => {
+  const handleDrink = () => {
     if (jogador) addPoints(jogador, 3);
     nextPlayer();
     router.push('/game/game');
@@ -48,6 +54,9 @@ export default function AnswerScreen() {
 
   return (
     <View style={styles.container}>
+      <Text style={{ alignSelf:'flex-start' , fontSize: 16, color: '#ccc', paddingBottom: 90 }}>
+        Dificuldade: <Text style={{ fontWeight: 'bold', color: '#fff' }}>{difficulty.toUpperCase()}</Text>
+      </Text>
       <Text style={styles.label}>Jogador:</Text>
       <Text style={styles.playerName}>{jogador}</Text>
 
@@ -58,12 +67,17 @@ export default function AnswerScreen() {
       </TouchableOpacity>
 
       <View style={styles.buttonGroup}>
+
         <TouchableOpacity style={styles.nextButton} onPress={handleDone}>
           <Text style={styles.nextButtonText}>Feito!</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={[styles.nextButton, styles.redButton]} onPress={handleRepeat}>
-          <Text style={styles.nextButtonText}>Dose</Text>
+        <TouchableOpacity style={[styles.nextButton, styles.blueButton]} onPress={handleDoneDrink}>
+          <Text style={styles.nextButtonText}>Fiz e bebi!</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity style={[styles.nextButton, styles.redButton]} onPress={handleDrink}>
+          <Text style={styles.nextButtonText}>Me recuso, vou BEBER.</Text>
         </TouchableOpacity>
       </View>
     </View>

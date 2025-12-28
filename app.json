@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "verdade-ou-desafio-new",
+    "name": "Verdade ou Desafio",
     "slug": "verdade-ou-desafio-new",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "assets/images/verdade_ou_desafio_png.png",
+    "icon": "assets/images/icon_1024.png",
     "scheme": "verdadeoudesafionew",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -18,9 +18,9 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "assets/images/verdade_ou_desafio_png.png",
-        "backgroundImage": "assets/images/verdade_ou_desafio_png.png",
-        "monochromeImage": "assets/images/verdade_ou_desafio_png.png"
+        "foregroundImage": "assets/images/icon_1024.png",
+        "backgroundImage": "assets/images/icon_1024.png",
+        "monochromeImage": "assets/images/icon_1024.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
@@ -28,14 +28,14 @@
     },
     "web": {
       "output": "static",
-      "favicon": "assets/images/verdade_ou_desafio_png.png"
+      "favicon": "assets/images/icon_1024.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "assets/images/verdade_ou_desafio_png.png",
+          "image": "assets/images/icon_1024.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff",
